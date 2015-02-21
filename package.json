@@ -1,0 +1,49 @@
+{
+  "name": "mappersmith-playground",
+  "version": "0.1.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "css-loader": "^0.9.1",
+    "extract-text-webpack-plugin": "^0.3.8",
+    "jquery": "^2.1.3",
+    "mappersmith": "^0.4.1",
+    "mappersmith-cached-gateway": "^0.2.0",
+    "react": "^0.12.2",
+    "sass-loader": "^0.3.1",
+    "style-loader": "^0.8.3",
+    "url-loader": "^0.5.5",
+    "velocity-animate": "^1.2.2"
+  },
+  "devDependencies": {
+    "assets-webpack-plugin": "0.2.0",
+    "del": "^1.1.1",
+    "event-stream": "^3.2.1",
+    "gulp": "^3.8.10",
+    "gulp-util": "^3.0.2",
+    "html-webpack-plugin": "^1.1.0",
+    "jasmine-core": "^2.1.3",
+    "jsx-loader": "^0.12.2",
+    "karma": "^0.12.31",
+    "karma-cli": "0.0.4",
+    "karma-firefox-launcher": "^0.1.4",
+    "karma-jasmine": "^0.3.5",
+    "karma-webpack": "^1.5.0",
+    "react-tools": "^0.12.2",
+    "rewire": "^2.1.4",
+    "rewire-webpack": "^1.0.0",
+    "through2": "^0.6.3",
+    "webpack": "^1.4.15",
+    "webpack-dev-server": "^1.7.0"
+  },
+  "scripts": {
+    "dev-server": "./node_modules/.bin/webpack-dev-server --port 8082 --content-base build/public  --hot --colors --progress",
+    "test": "karma start karma.config.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

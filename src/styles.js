@@ -1,0 +1,9 @@
+require('./stylesheets/normalize.css');
+require('./stylesheets/materialize.scss');
+require('./client/components/widgets/circular-loader/stylesheets/circular-loader-widget.scss');
+require('./client/components/widgets/gateway-select/stylesheets/gateway-select-widget.scss');
+require('./client/components/widgets/header/stylesheets/header-widget.scss');
+require('./client/components/widgets/movie-card/stylesheets/movie-card-widget.scss');
+require('./client/components/widgets/movies-list/stylesheets/movies-list-widget.scss');
+require('./client/components/widgets/stats-panel/stylesheets/stats-panel-widget.scss');
+require('./client/components/views/home/stylesheets/home-view.scss');

@@ -1,0 +1,31 @@
+span.badge{
+
+  &.cache {
+    float: none;
+    display: inline-block;
+
+    min-width: 2.5rem;
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: $badge-bg-color;
+    @include border-radius(2px);
+
+    &.hit {
+      background-color: color("green", "base");
+
+      &:after {
+        content: "HIT";
+      }
+    }
+
+    &.miss {
+      background-color: color("yellow", "darken-3");
+
+      &:after {
+        content: "MISS";
+      }
+    }
+  }
+
+}
