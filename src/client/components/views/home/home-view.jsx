@@ -3,6 +3,7 @@ var React = require('react');
 var API = require('app/api-clients');
 
 var Header = require('app/components/widgets/header');
+var GithubRibbon = require('./github-ribbon.jsx');
 var GatewaySelect = require('app/components/widgets/gateway-select');
 var StatsPanel = require('app/components/widgets/stats-panel');
 var MoviesList = require('app/components/widgets/movies-list');
@@ -17,6 +18,7 @@ var HomeView = React.createClass({
     return (
       <div className='home-view'>
         <Header />
+        <GithubRibbon />
         <div className='container'>
           <div className='row'>
             <h1 className='col s12'>Movies</h1>
