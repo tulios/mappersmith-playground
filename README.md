@@ -2,5 +2,5 @@
 
 Just some example and playground for the packages:
 
-  - [Mappersmith](github.com/tulios/mappersmith)
-  - [MappersmithCachedGateway](github.com/tulios/mappersmith-cached-gateway)
+  - [Mappersmith](http://github.com/tulios/mappersmith)
+  - [MappersmithCachedGateway](http://github.com/tulios/mappersmith-cached-gateway)
