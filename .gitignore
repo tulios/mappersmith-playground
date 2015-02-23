@@ -3,5 +3,9 @@ node_modules/
 build/**/*.js
 build/**/*.css
 build/**/*.json
+build/**/*.ttf
+build/**/*.woff
+build/**/*.eot
+build/**/*.svg
 build/public/assets/index.html
 npm-debug.log
